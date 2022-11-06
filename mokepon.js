@@ -358,7 +358,7 @@ function enviarAtaques(){
             ataques: ataqueJugador
         })
     })
-    intervalo = setInterval (obtenerAtaques, 50)//se ejecutará constantemente aunque no esté corriendo la función enviarAtaques
+    intervalo = setInterval (obtenerAtaques, 15)//se ejecutará constantemente aunque no esté corriendo la función enviarAtaques
 }
 
 function obtenerAtaques(){
@@ -515,7 +515,7 @@ function iniciarMapa(){
 
     window.addEventListener("keydown", teclaOprimida)
     window.addEventListener("keyup", detenerMovimiento)
-    intervalo = setInterval (pintarCanvas, 50)
+    intervalo = setInterval (pintarCanvas, 16)
 }
 
 
